@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+}
+
+.person-enter {
+  opacity: 0;
+}
+.person-enter-active {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+.person-exit {
+  opacity: 1;
+}
+.person-exit-active {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
